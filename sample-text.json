@@ -1,0 +1,987 @@
+[ {
+  "id" : 253380089,
+  "name" : "School_Year",
+  "dataTypeName" : "text",
+  "description" : "Indicates the school year the record refers to. The DOE school year starts in September every year. ",
+  "fieldName" : "school_year",
+  "position" : 1,
+  "renderTypeName" : "text",
+  "tableColumnId" : 32621541,
+  "width" : 145,
+  "cachedContents" : {
+    "largest" : "2019-2020",
+    "non_null" : "53422",
+    "null" : "0",
+    "top" : [ {
+      "item" : "2019-2020",
+      "count" : "11113"
+    }, {
+      "item" : "2018-2019",
+      "count" : "10861"
+    }, {
+      "item" : "2017-2018",
+      "count" : "10856"
+    }, {
+      "item" : "2016-2017",
+      "count" : "10620"
+    }, {
+      "item" : "2015-2016",
+      "count" : "9951"
+    }, {
+      "item" : "2014-2015",
+      "count" : "18"
+    }, {
+      "item" : "2013-2014",
+      "count" : "3"
+    } ],
+    "smallest" : "2013-2014",
+    "not_null" : "53250",
+    "count" : "53422",
+    "cardinality" : "7"
+  },
+  "format" : {
+    "align" : "left"
+  }
+}, {
+  "id" : 253380090,
+  "name" : "Route_Number",
+  "dataTypeName" : "text",
+  "description" : "Either four (1 alpha + 3 numeric) or five (1 alpha + 4 numeric) character unique route ID that represent a contracted service with a school bus or ambulance vendor.",
+  "fieldName" : "route_number",
+  "position" : 2,
+  "renderTypeName" : "text",
+  "tableColumnId" : 32621542,
+  "width" : 141,
+  "cachedContents" : {
+    "largest" : "Z005",
+    "non_null" : "53422",
+    "null" : "0",
+    "top" : [ {
+      "item" : "K497",
+      "count" : "5"
+    }, {
+      "item" : "K601",
+      "count" : "5"
+    }, {
+      "item" : "K450",
+      "count" : "5"
+    }, {
+      "item" : "K496",
+      "count" : "5"
+    }, {
+      "item" : "K546",
+      "count" : "5"
+    }, {
+      "item" : "K600",
+      "count" : "5"
+    }, {
+      "item" : "K414",
+      "count" : "5"
+    }, {
+      "item" : "K448",
+      "count" : "5"
+    }, {
+      "item" : "K469",
+      "count" : "5"
+    }, {
+      "item" : "K495",
+      "count" : "5"
+    }, {
+      "item" : "K513",
+      "count" : "5"
+    }, {
+      "item" : "K545",
+      "count" : "5"
+    }, {
+      "item" : "K572",
+      "count" : "5"
+    }, {
+      "item" : "K599",
+      "count" : "5"
+    }, {
+      "item" : "K395",
+      "count" : "5"
+    }, {
+      "item" : "K413",
+      "count" : "5"
+    }, {
+      "item" : "K435",
+      "count" : "5"
+    }, {
+      "item" : "K447",
+      "count" : "5"
+    }, {
+      "item" : "K460",
+      "count" : "5"
+    }, {
+      "item" : "K468",
+      "count" : "5"
+    } ],
+    "smallest" : "A001",
+    "not_null" : "53250",
+    "count" : "53422",
+    "cardinality" : "13963"
+  },
+  "format" : {
+    "align" : "left"
+  }
+}, {
+  "id" : 253380091,
+  "name" : "Service_Type",
+  "dataTypeName" : "text",
+  "description" : "•\tS2S AM - stop to school service, sometimes referred to as 'general education', routed for the trip 'to' school in the morning; \n•\tS2S PM - stop to school service, sometimes referred to as 'general education', routed for the trip 'from' school in the afternoon; \n•\tD2D – curb-to-curb service, sometimes referred to as ‘special education busing' or ‘door-to-door’ service.\n",
+  "fieldName" : "service_type",
+  "position" : 3,
+  "renderTypeName" : "text",
+  "tableColumnId" : 32621543,
+  "width" : 140,
+  "cachedContents" : {
+    "largest" : "S2S PM",
+    "non_null" : "53422",
+    "null" : "0",
+    "top" : [ {
+      "item" : "D2D",
+      "count" : "28347"
+    }, {
+      "item" : "S2S PM",
+      "count" : "12539"
+    }, {
+      "item" : "S2S AM",
+      "count" : "12536"
+    } ],
+    "smallest" : "D2D",
+    "not_null" : "53250",
+    "count" : "53422",
+    "cardinality" : "3"
+  },
+  "format" : {
+    "align" : "left"
+  }
+}, {
+  "id" : 253380092,
+  "name" : "Vehicle_TypeDescription",
+  "dataTypeName" : "text",
+  "description" : "Type of vehicle each bus vendor has under contract with DOE. The categories are:\n•\tType A or B Flex Vehicle - A school bus with hydraulic lift and a minimum seating capacity of six wheelchair positions. Some or all of these wheelchair positions can be outfitted with seats for non-wheelchair passengers. Each vehicle is designed so that the driver and attendant can assist a student in a wheelchair in and out of the vehicle using the hydraulic lift. Each vehicle must be equipped with tie-down passive restraint devices to anchor each wheelchair securely to the vehicle.           \n•\tAmbulance Transportation Service - A vehicle with a maximum capacity of one passenger to and from school requiring either advanced life support (ALS) or basic life support (BLS). Services require a minimum two Emergency Medical Technicians (EMT) for BLS or a Paramedic and an EMT for ALS. \n•\tNon-Wheelchair Accessible Alternative (NWC) - A vehicle with a maximum passenger seating capacity of three passengers, excluding the driver and attendant. Each passenger is capable of entering, and exiting the vehicle on their own. \n•\tWheelchair Accessible Alternative (WC) - A vehicle with capacity for two non-ambulatory and two ambulatory passengers. Each vehicle is designed so that the driver and attendant can assist a student in a wheelchair in and out of the vehicle, using a hydraulic lift. Each vehicle must be equipped with tie-down passive restraint devices to anchor each wheelchair securely to the vehicle. \n•\tType C or D Flex -A school bus with minimum capacity of ten wheelchair positions and a maximum capacity of thirty-five seated passenger. Each vehicle is designed so that the driver and attendant can assist a student in a wheelchair in and out of the vehicle using a hydraulic lift. Each vehicle must be equipped with tie-down passive restraint devices to anchor each wheelchair securely to the vehicle.\n•\tHydraulic Lift - A school bus with a seating capacity of eight students with wheelchairs and eight ambulatory passengers (excluding the driver and attendant). Each vehicle is designed so that the driver and attendant can assist a student in a wheelchair in and out of the vehicle, using a hydraulic lift. Each vehicle must be equipped with tie-down passive restraint devices to anchor each wheelchair securely to the vehicle.          \n•\tMini-Wagon - A school bus with a minimum total seating capacity of fifteen passengers excluding the driver and attendant. Each passenger is capable of entering and exiting the vehicle on their own.\n•\tRamp-Wagon - A school bus with a registered, minimum total seating capacity of four non-ambulatory students with wheelchairs and four ambulatory passengers (excluding the driver and attendant). Each vehicle is designed so that a driver and attendant can assist a student in a wheelchair in and out of the vehicle using the ramp. Each vehicle must be equipped with tie-down passive restraint devices to anchor each wheelchair securely to the vehicle.  \n•\tStandard Bus (SE) - A school bus with a minimum seating capacity of thirty-six special education students. These buses are equipped with entrance and exit doors on both sides of the vehicles for easy sidewalk access.  \n•\tStandard Bus (GE) - A school bus with a minimum seating capacity of sixty students excluding the driver.  Each passenger is capable of entering and exiting the vehicle on their own. This is the vehicle used to transport general education students and there is no attendant accompanying the driver on these buses.\n",
+  "fieldName" : "vehicle_typedescription",
+  "position" : 4,
+  "renderTypeName" : "text",
+  "tableColumnId" : 32621547,
+  "width" : 208,
+  "cachedContents" : {
+    "largest" : "Wheelchair Accessible Alternative (WC)",
+    "non_null" : "53422",
+    "null" : "0",
+    "top" : [ {
+      "item" : "Standard Bus (GE)",
+      "count" : "25075"
+    }, {
+      "item" : "Mini-Wagon",
+      "count" : "18872"
+    }, {
+      "item" : "Standard Bus (SE)",
+      "count" : "4715"
+    }, {
+      "item" : "Type A or B Flex Vehicle",
+      "count" : "1774"
+    }, {
+      "item" : "Ramp-Wagon",
+      "count" : "1475"
+    }, {
+      "item" : "Non-Wheelchair Accessible Alternative (NWC)",
+      "count" : "602"
+    }, {
+      "item" : "Hydraulic Lift",
+      "count" : "442"
+    }, {
+      "item" : "Wheelchair Accessible Alternative (WC)",
+      "count" : "332"
+    }, {
+      "item" : "Type C or D Flex",
+      "count" : "104"
+    }, {
+      "item" : "Ambulance Transportation Service",
+      "count" : "31"
+    } ],
+    "smallest" : "Ambulance Transportation Service",
+    "not_null" : "53250",
+    "count" : "53422",
+    "cardinality" : "10"
+  },
+  "format" : {
+    "align" : "left"
+  }
+}, {
+  "id" : 253380093,
+  "name" : "Route_Start_Date",
+  "dataTypeName" : "calendar_date",
+  "description" : "Day the route is set to start as per contract agreement with bus vendor.",
+  "fieldName" : "route_start_date",
+  "position" : 5,
+  "renderTypeName" : "calendar_date",
+  "tableColumnId" : 32621555,
+  "width" : 165,
+  "cachedContents" : {
+    "largest" : "2020-03-23T00:00:00.000",
+    "non_null" : "53422",
+    "null" : "0",
+    "top" : [ {
+      "item" : "2019-09-03T00:00:00.000",
+      "count" : "7204"
+    }, {
+      "item" : "2018-09-04T00:00:00.000",
+      "count" : "7151"
+    }, {
+      "item" : "2016-09-01T00:00:00.000",
+      "count" : "6719"
+    }, {
+      "item" : "2015-09-08T00:00:00.000",
+      "count" : "3736"
+    }, {
+      "item" : "2017-09-05T00:00:00.000",
+      "count" : "3634"
+    }, {
+      "item" : "2017-09-01T00:00:00.000",
+      "count" : "3391"
+    }, {
+      "item" : "2015-09-01T00:00:00.000",
+      "count" : "2776"
+    }, {
+      "item" : "2019-09-05T00:00:00.000",
+      "count" : "1353"
+    }, {
+      "item" : "2018-09-05T00:00:00.000",
+      "count" : "1269"
+    }, {
+      "item" : "2017-09-07T00:00:00.000",
+      "count" : "1130"
+    }, {
+      "item" : "2016-09-13T00:00:00.000",
+      "count" : "754"
+    }, {
+      "item" : "2015-09-09T00:00:00.000",
+      "count" : "738"
+    }, {
+      "item" : "2016-09-06T00:00:00.000",
+      "count" : "597"
+    }, {
+      "item" : "2016-01-19T00:00:00.000",
+      "count" : "386"
+    }, {
+      "item" : "2017-10-02T00:00:00.000",
+      "count" : "366"
+    }, {
+      "item" : "2016-09-08T00:00:00.000",
+      "count" : "301"
+    }, {
+      "item" : "2015-10-01T00:00:00.000",
+      "count" : "246"
+    }, {
+      "item" : "2018-09-12T00:00:00.000",
+      "count" : "215"
+    }, {
+      "item" : "2019-11-01T00:00:00.000",
+      "count" : "170"
+    }, {
+      "item" : "2017-09-11T00:00:00.000",
+      "count" : "142"
+    } ],
+    "smallest" : "2013-07-03T00:00:00.000",
+    "not_null" : "53250",
+    "count" : "53422",
+    "cardinality" : "866"
+  },
+  "format" : {
+    "view" : "date",
+    "align" : "left"
+  }
+}, {
+  "id" : 253380094,
+  "name" : "Vendor_Code",
+  "dataTypeName" : "text",
+  "description" : "Two character code representing the bus vendor.",
+  "fieldName" : "vendor_code",
+  "position" : 6,
+  "renderTypeName" : "text",
+  "tableColumnId" : 32621563,
+  "width" : 161,
+  "cachedContents" : {
+    "largest" : "ZF",
+    "non_null" : "53422",
+    "null" : "0",
+    "top" : [ {
+      "item" : "RV",
+      "count" : "4510"
+    }, {
+      "item" : "NW",
+      "count" : "4192"
+    }, {
+      "item" : "BO",
+      "count" : "3836"
+    }, {
+      "item" : "PT",
+      "count" : "3490"
+    }, {
+      "item" : "JZ",
+      "count" : "2934"
+    }, {
+      "item" : "GB",
+      "count" : "2781"
+    }, {
+      "item" : "LB",
+      "count" : "2545"
+    }, {
+      "item" : "QL",
+      "count" : "2255"
+    }, {
+      "item" : "PW",
+      "count" : "2247"
+    }, {
+      "item" : "LG",
+      "count" : "2035"
+    }, {
+      "item" : "LK",
+      "count" : "1731"
+    }, {
+      "item" : "BB",
+      "count" : "1575"
+    }, {
+      "item" : "AM",
+      "count" : "1463"
+    }, {
+      "item" : "YM",
+      "count" : "1218"
+    }, {
+      "item" : "LR",
+      "count" : "1209"
+    }, {
+      "item" : "LS",
+      "count" : "1196"
+    }, {
+      "item" : "MW",
+      "count" : "1142"
+    }, {
+      "item" : "AP",
+      "count" : "1094"
+    }, {
+      "item" : "PC",
+      "count" : "1069"
+    }, {
+      "item" : "NI",
+      "count" : "856"
+    } ],
+    "smallest" : "AM",
+    "not_null" : "53250",
+    "count" : "53422",
+    "cardinality" : "61"
+  },
+  "format" : {
+    "align" : "left"
+  }
+}, {
+  "id" : 253380095,
+  "name" : "Vendor_Name",
+  "dataTypeName" : "text",
+  "description" : "Company name of the bus vendor.",
+  "fieldName" : "vendor_name",
+  "position" : 7,
+  "renderTypeName" : "text",
+  "tableColumnId" : 32621564,
+  "width" : 223,
+  "cachedContents" : {
+    "largest" : "Y & M TRANSIT CORP (B2321)",
+    "non_null" : "53422",
+    "null" : "0",
+    "top" : [ {
+      "item" : "PIONEER TRANSPORTATION CORP",
+      "count" : "6301"
+    }, {
+      "item" : "SNT BUS INC",
+      "count" : "4192"
+    }, {
+      "item" : "BORO TRANSIT, INC.",
+      "count" : "3836"
+    }, {
+      "item" : "JOFAZ TRANSPORTATION INC.",
+      "count" : "2934"
+    }, {
+      "item" : "GRANDPA`S BUS CO., INC.",
+      "count" : "2781"
+    }, {
+      "item" : "RELIANT TRANSPORTATION, INC (B2321)",
+      "count" : "2739"
+    }, {
+      "item" : "LITTLE RICHIE BUS SERVICE",
+      "count" : "2545"
+    }, {
+      "item" : "QUALITY TRANSPORTATION CORP.",
+      "count" : "2255"
+    }, {
+      "item" : "LOGAN BUS COMPANY INC.",
+      "count" : "2035"
+    }, {
+      "item" : "RELIANT TRANS, INC. (B2321)",
+      "count" : "1771"
+    }, {
+      "item" : "BOBBY`S BUS CO. INC.",
+      "count" : "1575"
+    }, {
+      "item" : "ALL AMERICAN SCHOOL BUS CORP.",
+      "count" : "1463"
+    }, {
+      "item" : "Y & M TRANSIT CORP (B2192)",
+      "count" : "1218"
+    }, {
+      "item" : "LORISSA BUS SERVICE INC.",
+      "count" : "1196"
+    }, {
+      "item" : "LEESEL TRANSPORTATION CORP (B2192)",
+      "count" : "1155"
+    }, {
+      "item" : "MAR-CAN TRANSPORT CO. INC (B2192)",
+      "count" : "1142"
+    }, {
+      "item" : "HOYT TRANSPORTATION CORP.",
+      "count" : "1094"
+    }, {
+      "item" : "PRIDE TRANSPORTATION (SCH AGE)",
+      "count" : "1069"
+    }, {
+      "item" : "NEW DAWN TRANSIT, LLC (B2321)",
+      "count" : "856"
+    }, {
+      "item" : "LORINDA ENTERPRISES, LTD.",
+      "count" : "785"
+    } ],
+    "smallest" : "ACME BUS CORP. (B2321)",
+    "not_null" : "53250",
+    "count" : "53422",
+    "cardinality" : "66"
+  },
+  "format" : {
+    "align" : "left"
+  }
+}, {
+  "id" : 253380096,
+  "name" : "Vendor_Affiliation",
+  "dataTypeName" : "text",
+  "description" : "Parent company name of the bus vendor.",
+  "fieldName" : "vendor_affiliation",
+  "position" : 8,
+  "renderTypeName" : "text",
+  "tableColumnId" : 32621565,
+  "width" : 257,
+  "cachedContents" : {
+    "largest" : "Y & M TRANSIT CORP (B2321)",
+    "non_null" : "53422",
+    "null" : "0",
+    "top" : [ {
+      "item" : "LITTLE LINDA BUS CO.,INC.",
+      "count" : "6379"
+    }, {
+      "item" : "PIONEER TRANSPORTATION CORP",
+      "count" : "6301"
+    }, {
+      "item" : "BOBBY`S BUS CO. INC.",
+      "count" : "5892"
+    }, {
+      "item" : "BORO TRANSIT, INC.",
+      "count" : "4573"
+    }, {
+      "item" : "SNT BUS INC",
+      "count" : "4192"
+    }, {
+      "item" : "JOFAZ TRANSPORTATION INC.",
+      "count" : "2997"
+    }, {
+      "item" : "RELIANT TRANSPORTATION, INC (B2321)",
+      "count" : "2739"
+    }, {
+      "item" : "QUALITY TRANSPORTATION CORP.",
+      "count" : "2255"
+    }, {
+      "item" : "RELIANT TRANS, INC. (B2321)",
+      "count" : "1771"
+    }, {
+      "item" : "ALL AMERICAN SCHOOL BUS CORP.",
+      "count" : "1463"
+    }, {
+      "item" : "Y & M TRANSIT CORP (B2192)",
+      "count" : "1218"
+    }, {
+      "item" : "LEESEL TRANSPORTATION CORP (B2192)",
+      "count" : "1155"
+    }, {
+      "item" : "MAR-CAN TRANSPORT CO. INC (B2192)",
+      "count" : "1142"
+    }, {
+      "item" : "HOYT TRANSPORTATION CORP.",
+      "count" : "1094"
+    }, {
+      "item" : "PRIDE TRANSPORTATION (SCH AGE)",
+      "count" : "1069"
+    }, {
+      "item" : "ALLIED TRANSIT CORP.",
+      "count" : "924"
+    }, {
+      "item" : "NEW DAWN TRANSIT, LLC (B2321)",
+      "count" : "856"
+    }, {
+      "item" : "VAN TRANS LLC (B2192)",
+      "count" : "773"
+    }, {
+      "item" : "G.V.C. LTD. (B2192)",
+      "count" : "675"
+    }, {
+      "item" : "LEESEL TRANSP CORP (B2192)",
+      "count" : "576"
+    } ],
+    "smallest" : "ACME BUS CORP. (B2321)",
+    "not_null" : "53250",
+    "count" : "53422",
+    "cardinality" : "53"
+  },
+  "format" : {
+    "align" : "left"
+  }
+}, {
+  "id" : 253380097,
+  "name" : "Garage _Street_Address",
+  "dataTypeName" : "text",
+  "description" : "The house number and street name for a location where the school bus servicing this particular route is parked overnight. ",
+  "fieldName" : "garage_street_name",
+  "position" : 9,
+  "renderTypeName" : "text",
+  "tableColumnId" : 32621567,
+  "width" : 273,
+  "cachedContents" : {
+    "largest" : "97-14 Atlantic Avenue",
+    "non_null" : "53292",
+    "null" : "130",
+    "top" : [ {
+      "item" : "145-40 155 Street",
+      "count" : "5588"
+    }, {
+      "item" : "2890 Arthur Kill Road",
+      "count" : "3386"
+    }, {
+      "item" : "97-14 Atlantic Avenue",
+      "count" : "2569"
+    }, {
+      "item" : "432 Zerega Avenue",
+      "count" : "2169"
+    }, {
+      "item" : "2350 HERMANY AVENUE",
+      "count" : "2032"
+    }, {
+      "item" : "612 Wortman Avenue",
+      "count" : "1899"
+    }, {
+      "item" : "751 Zerega Avenue",
+      "count" : "1576"
+    }, {
+      "item" : "660 Zerega Avenue",
+      "count" : "1374"
+    }, {
+      "item" : "297 NORMAN AVENUE",
+      "count" : "1353"
+    }, {
+      "item" : "17 VAN DYKE STREET",
+      "count" : "1310"
+    }, {
+      "item" : "3900 WEBSTER AVENUE",
+      "count" : "1291"
+    }, {
+      "item" : "1386 RALPH AVENUE",
+      "count" : "1193"
+    }, {
+      "item" : "154 Sheffield Avenue",
+      "count" : "1112"
+    }, {
+      "item" : "6093 STRICKLAND AVENUE",
+      "count" : "1063"
+    }, {
+      "item" : "107-10 180 STREET",
+      "count" : "1058"
+    }, {
+      "item" : "6055 Strickland Avenue",
+      "count" : "1024"
+    }, {
+      "item" : "1616 Stillwell Avenue",
+      "count" : "979"
+    }, {
+      "item" : "1310 Oak Point Avenue",
+      "count" : "958"
+    }, {
+      "item" : "1 Junius street",
+      "count" : "935"
+    }, {
+      "item" : "2352 E 69 STREET",
+      "count" : "853"
+    } ],
+    "smallest" : "05 WORTMAN AVE",
+    "not_null" : "53075",
+    "count" : "53422",
+    "cardinality" : "107"
+  },
+  "format" : {
+    "align" : "left"
+  }
+}, {
+  "id" : 253380098,
+  "name" : "Garage_City",
+  "dataTypeName" : "text",
+  "description" : "The city for a location where the school bus servicing this particular route is parked overnight.",
+  "fieldName" : "garage_city",
+  "position" : 10,
+  "renderTypeName" : "text",
+  "tableColumnId" : 32621568,
+  "width" : 162,
+  "cachedContents" : {
+    "largest" : "Yonkers",
+    "non_null" : "53292",
+    "null" : "130",
+    "top" : [ {
+      "item" : "Bronx",
+      "count" : "12540"
+    }, {
+      "item" : "Brooklyn",
+      "count" : "11561"
+    }, {
+      "item" : "Jamaica",
+      "count" : "5590"
+    }, {
+      "item" : "BROOKLYN",
+      "count" : "5430"
+    }, {
+      "item" : "Staten Island",
+      "count" : "4088"
+    }, {
+      "item" : "Ozone Park",
+      "count" : "2569"
+    }, {
+      "item" : "BRONX",
+      "count" : "1761"
+    }, {
+      "item" : "brooklyn",
+      "count" : "1740"
+    }, {
+      "item" : "bronx",
+      "count" : "1123"
+    }, {
+      "item" : "QUEENS",
+      "count" : "1058"
+    }, {
+      "item" : "Astoria",
+      "count" : "899"
+    }, {
+      "item" : "BKLYN",
+      "count" : "853"
+    }, {
+      "item" : "Mount Vernon",
+      "count" : "851"
+    }, {
+      "item" : "SI",
+      "count" : "779"
+    }, {
+      "item" : "Pelham Manor",
+      "count" : "771"
+    }, {
+      "item" : "Pelham",
+      "count" : "752"
+    }, {
+      "item" : "Yonkers",
+      "count" : "219"
+    }, {
+      "item" : "Bklyn",
+      "count" : "184"
+    }, {
+      "item" : "BRON",
+      "count" : "153"
+    }, {
+      "item" : "Oceanside",
+      "count" : "138"
+    } ],
+    "smallest" : "Astoria",
+    "not_null" : "53075",
+    "count" : "53422",
+    "cardinality" : "26"
+  },
+  "format" : {
+    "align" : "left"
+  }
+}, {
+  "id" : 253380099,
+  "name" : "Garage_State",
+  "dataTypeName" : "text",
+  "description" : "The state for a location where the school bus servicing this particular route is parked overnight.",
+  "fieldName" : "garage_state",
+  "position" : 11,
+  "renderTypeName" : "text",
+  "tableColumnId" : 32621569,
+  "width" : 161,
+  "cachedContents" : {
+    "largest" : "NY",
+    "non_null" : "53292",
+    "null" : "130",
+    "top" : [ {
+      "item" : "NY",
+      "count" : "53292"
+    } ],
+    "smallest" : "NY",
+    "not_null" : "53075",
+    "count" : "53422",
+    "cardinality" : "1"
+  },
+  "format" : {
+    "align" : "left"
+  }
+}, {
+  "id" : 253380100,
+  "name" : "Garage_Zip",
+  "dataTypeName" : "text",
+  "description" : "The ZIP code for a location where the school bus servicing this particular route is parked overnight.",
+  "fieldName" : "garage_zip",
+  "position" : 12,
+  "renderTypeName" : "text",
+  "tableColumnId" : 32621570,
+  "width" : 152,
+  "cachedContents" : {
+    "largest" : "11706",
+    "non_null" : "53292",
+    "null" : "130",
+    "top" : [ {
+      "item" : "10473",
+      "count" : "8354"
+    }, {
+      "item" : "11207",
+      "count" : "6146"
+    }, {
+      "item" : "11434",
+      "count" : "5588"
+    }, {
+      "item" : "10309",
+      "count" : "3386"
+    }, {
+      "item" : "11234",
+      "count" : "2957"
+    }, {
+      "item" : "11208",
+      "count" : "2930"
+    }, {
+      "item" : "11416",
+      "count" : "2569"
+    }, {
+      "item" : "11231",
+      "count" : "2386"
+    }, {
+      "item" : "11236",
+      "count" : "2211"
+    }, {
+      "item" : "10474",
+      "count" : "2136"
+    }, {
+      "item" : "10803",
+      "count" : "1523"
+    }, {
+      "item" : "11222",
+      "count" : "1449"
+    }, {
+      "item" : "10470",
+      "count" : "1295"
+    }, {
+      "item" : "10462",
+      "count" : "1095"
+    }, {
+      "item" : "10461",
+      "count" : "1079"
+    }, {
+      "item" : "11433",
+      "count" : "1060"
+    }, {
+      "item" : "10553",
+      "count" : "851"
+    }, {
+      "item" : "10302",
+      "count" : "683"
+    }, {
+      "item" : "10472",
+      "count" : "608"
+    }, {
+      "item" : "11224",
+      "count" : "585"
+    } ],
+    "smallest" : "10301",
+    "not_null" : "53075",
+    "count" : "53422",
+    "cardinality" : "40"
+  },
+  "format" : {
+    "align" : "left"
+  }
+}, {
+  "id" : 253380101,
+  "name" : "XCoordinates",
+  "dataTypeName" : "text",
+  "description" : "Spatial coordinate to be used for mapping. Coordinate system used is State Plane Coordinate (SPC) system: NAD 1983 StatePlane New York Long Island FIPS 3104 Feet.",
+  "fieldName" : "xcoordinates",
+  "position" : 13,
+  "renderTypeName" : "text",
+  "tableColumnId" : 32621571,
+  "width" : 149,
+  "cachedContents" : {
+    "largest" : "991316.0000000000",
+    "non_null" : "53422",
+    "null" : "0",
+    "top" : [ {
+      "item" : "1044536.0000000000",
+      "count" : "5588"
+    }, {
+      "item" : "921003.0000000000",
+      "count" : "3386"
+    }, {
+      "item" : "1027170.0000000000",
+      "count" : "2569"
+    }, {
+      "item" : "1027238.0000000000",
+      "count" : "2169"
+    }, {
+      "item" : "1027216.0000000000",
+      "count" : "2117"
+    }, {
+      "item" : "1019867.0000000000",
+      "count" : "2022"
+    }, {
+      "item" : "1027786.0000000000",
+      "count" : "1576"
+    }, {
+      "item" : "1000787.0000000000",
+      "count" : "1449"
+    }, {
+      "item" : "1010794.0000000000",
+      "count" : "1398"
+    }, {
+      "item" : "1027920.0000000000",
+      "count" : "1377"
+    }, {
+      "item" : "981142.0000000000",
+      "count" : "1310"
+    }, {
+      "item" : "1020972.0000000000",
+      "count" : "1295"
+    }, {
+      "item" : "1006471.0000000000",
+      "count" : "1193"
+    }, {
+      "item" : "1010602.0000000000",
+      "count" : "1120"
+    }, {
+      "item" : "1012729.0000000000",
+      "count" : "1112"
+    }, {
+      "item" : "1008413.0000000000",
+      "count" : "1063"
+    }, {
+      "item" : "1046298.0000000000",
+      "count" : "1060"
+    }, {
+      "item" : "1008238.0000000000",
+      "count" : "1024"
+    }, {
+      "item" : "1028311.0000000000",
+      "count" : "979"
+    }, {
+      "item" : "1016116.0000000000",
+      "count" : "958"
+    } ],
+    "smallest" : "0.0000000000",
+    "not_null" : "53250",
+    "count" : "53422",
+    "cardinality" : "83"
+  },
+  "format" : {
+    "align" : "left"
+  }
+}, {
+  "id" : 253380102,
+  "name" : "YCoordinates",
+  "dataTypeName" : "text",
+  "description" : "Spatial coordinate to be used for mapping. Coordinate system used is State Plane Coordinate (SPC) system: NAD 1983 StatePlane New York Long Island FIPS 3104 Feet.",
+  "fieldName" : "ycoordinates",
+  "position" : 14,
+  "renderTypeName" : "text",
+  "tableColumnId" : 32621572,
+  "width" : 128,
+  "cachedContents" : {
+    "largest" : "284896.6497440000",
+    "non_null" : "53422",
+    "null" : "0",
+    "top" : [ {
+      "item" : "181633.0000000000",
+      "count" : "5588"
+    }, {
+      "item" : "138792.0000000000",
+      "count" : "3386"
+    }, {
+      "item" : "190362.0000000000",
+      "count" : "2569"
+    }, {
+      "item" : "236679.0000000000",
+      "count" : "2169"
+    }, {
+      "item" : "240011.0000000000",
+      "count" : "2117"
+    }, {
+      "item" : "180729.0000000000",
+      "count" : "2022"
+    }, {
+      "item" : "239222.0000000000",
+      "count" : "1576"
+    }, {
+      "item" : "204481.0000000000",
+      "count" : "1449"
+    }, {
+      "item" : "185183.0000000000",
+      "count" : "1398"
+    }, {
+      "item" : "238499.0000000000",
+      "count" : "1377"
+    }, {
+      "item" : "184568.0000000000",
+      "count" : "1310"
+    }, {
+      "item" : "263058.0000000000",
+      "count" : "1295"
+    }, {
+      "item" : "174070.0000000000",
+      "count" : "1193"
+    }, {
+      "item" : "187257.0000000000",
+      "count" : "1120"
+    }, {
+      "item" : "184710.0000000000",
+      "count" : "1112"
+    }, {
+      "item" : "162051.0000000000",
+      "count" : "1063"
+    }, {
+      "item" : "195093.0000000000",
+      "count" : "1060"
+    }, {
+      "item" : "161540.0000000000",
+      "count" : "1024"
+    }, {
+      "item" : "250982.0000000000",
+      "count" : "979"
+    }, {
+      "item" : "234548.0000000000",
+      "count" : "958"
+    } ],
+    "smallest" : "0.0000000000",
+    "not_null" : "53250",
+    "count" : "53422",
+    "cardinality" : "83"
+  },
+  "format" : {
+    "align" : "left"
+  }
+} ]
